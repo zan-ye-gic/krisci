@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/login.css" />
+    <link rel="icon" type="image/x-icon" href="/pictures/favicon.png" />
     <title>krisci - login</title>
-</head>
-<body>
-    <h1>Hello From Login</h1>
-</body>
+  </head>
+  <body>
+    <audio autoplay loop>
+      <source src="/music/bad-things.mp3" type="audio/mpeg" />
+      Your browser does not support the audio.
+    </audio>
+    <div id="login-top">
+      <h2 id="together">We have been together like for</h2>
+      <div id="timer">
+        <b id="d"></b> Days <b id="h"></b> Hours <b id="m"></b> Minutes
+        <b id="s"></b> Seconds
+      </div>
+    </div>
+    <div class="flex">
+      <p class="header-sub-title" id="word"></p>
+      <p class="header-sub-title blink">|</p>
+    </div>
+    <script type="text/javascript" src="/js/date-counting.js"></script>
+    <script type="text/javascript" src="/js/type-writer.js"></script>
+  </body>
 </html>

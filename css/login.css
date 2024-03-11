@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5ed;
+  text-align: center;
+}
+
+#login-top {
+  position: absolute;
+  top: 1%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 10%;
+}
+
+#together {
+  font-size: 2.7vmax;
+}
+
+#d,
+#h,
+#m,
+#s {
+  font-size: 19px;
+}
+
+a,
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.header-sub-title.blink {
+  animation: blink 0.5s infinite;
+  font-family: Arial;
+  font-size: 18px;
+}
+
+@keyframes blink {
+  to {
+    opacity: 0;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+@font-face {
+  font-family: "win01";
+  src: url("/fonts/win01-regular.ttf");
+}
+
+@font-face {
+  font-family: "win01 bold";
+  src: url("/fonts/win01-bold.ttf");
+  font-weight: bold;
+}
+
+.header-sub-title#word {
+  font-family: "win01 bold", "win01", Arial;
+  font-size: 18px;
+  padding: 0.1em;
+}
