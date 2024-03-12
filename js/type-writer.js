@@ -24,7 +24,7 @@ let i = 0;
 let typingTimer;
 let skipText = document.getElementById("cute-pic");
 
-onclick = (skpText) => {
+skipText.onclick = () => {
 	i = words.length;
 	document.getElementById("pop-up-btn").style.display = "flex";
 	document.getElementById("header-sub-title").style.display = "none";
