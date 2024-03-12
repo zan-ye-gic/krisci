@@ -39,7 +39,7 @@ submitText.onclick = () => {
     favc.value.length != 0
   ) {
     if (
-      anni.value.trim().toUpperCase() == "4122022" &&
+      anni.value.trim().toUpperCase() == "1242022" &&
       kokobd.value.trim().toUpperCase() == "261998" &&
       kalaybd.value.trim().toUpperCase() == "9122009" &&
       favc.value.trim().toUpperCase() == "PURPLE"
