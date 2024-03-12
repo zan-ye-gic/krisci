@@ -1,4 +1,4 @@
 // Animation Timer
 setTimeout(() => {
-    location.href = "./html/login.html";
+    location.href = "./html/lock.html";
 }, 5000);
