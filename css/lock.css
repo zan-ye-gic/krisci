@@ -8,6 +8,19 @@ body {
   background: linear-gradient(#141e30, #243b55);
 }
 
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
 .login-box {
   position: absolute;
   top: 50%;
