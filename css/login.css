@@ -62,7 +62,7 @@ p {
   height: 10%;
 }
 
-@font-face {
+/* @font-face {
   font-family: "win01";
   src: url("../fonts/win01-regular.ttf");
 }
@@ -71,11 +71,11 @@ p {
   font-family: "win01 bold";
   src: url("../fonts/win01-bold.ttf");
   font-weight: bold;
-}
+} */
 
 .header-sub-title#word {
   font-family: "win01 bold", "win01", Arial;
-  font-size: 18px;
+  font-size: 45px;
   padding: 0.1em;
 }
 

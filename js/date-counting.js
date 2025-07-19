@@ -20,10 +20,10 @@ function timer() {
   if (s < 10) {
     s = "0" + s;
   }
-  document.getElementById("d").innerHTML = d;
-  document.getElementById("h").innerHTML = h;
-  document.getElementById("m").innerHTML = m;
-  document.getElementById("s").innerHTML = s;
+  document.getElementById("d").innerHTML = "1165";
+  document.getElementById("h").innerHTML = "03";
+  document.getElementById("m").innerHTML = "51";
+  document.getElementById("s").innerHTML = "59";
 }
 
 timer();
